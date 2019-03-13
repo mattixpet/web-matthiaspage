@@ -89,7 +89,7 @@ function initGame() {
 	var collisionManager = new CollisionManager();
 	global.set('collisionManager', collisionManager);
 
-	var player = new Player(300, 180);
+	var player = new Player(300, 135);
 	entityManager.register(player);
 
 	var loadingBar = global.get('loadingBar');

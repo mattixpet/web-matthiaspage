@@ -7,12 +7,12 @@
 // imports
 var util = global.get('util');
 var draw = global.get('draw');
+var consts = global.get('consts');
 var collision = global.get('collision');
 
 function Background() {
 	this.scenes = {}; // scene = page, stage whatever you want to call it, one background image
 	this.currentScene = 'clearsky'; // starting scene
-	this.gridOn = true; // draw collision grid or not?
 
 	// load collision data for each background image
 	this.cData = global.get('background_data');
@@ -35,7 +35,7 @@ function Background() {
 
 Background.prototype.draw = function () {
 	this._drawBg();
-	if (this.gridOn) {
+	if (consts.drawBackgroundGrid) {
 		this._drawGrid();
 	}
 };
@@ -82,8 +82,8 @@ Background.prototype.isRectangleCollidingWith = function (rX, rY, rW, rH) {
 
 	// go from bot right to top left because we assume the most common
 	// collision is rectangle with ground
-	for (var j = gridBotRight[1] - 1; j >= gridTopLeft[1]; j--) {
-		for (var i = gridBotRight[0] - 1; i >= gridTopLeft[0]; i--) {
+	for (var j = gridBotRight[1]; j >= gridTopLeft[1]; j--) {
+		for (var i = gridBotRight[0]; i >= gridTopLeft[0]; i--) {
 			if (data[j][i] !== 0) {
 				// collision
 				return true;

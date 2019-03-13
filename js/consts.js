@@ -21,6 +21,12 @@ consts['KEY_SPACE'] = 32;
 consts['SPRITEURL'] = 'img/spritesheets/';
 consts['BACKGROUNDURL'] = 'img/backgrounds/';
 
+// diagnostics
+consts['drawBackgroundGrid'] = true;
+consts['drawBoundingBoxes'] = true;
+consts['snakeMode'] = false;
+consts['gravity'] = true;
+
 global.set('consts', consts);
 
 }());
