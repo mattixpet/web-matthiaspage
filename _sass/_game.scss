@@ -1,5 +1,21 @@
 #dreamOfSongs {
 	border: 1px solid black;
-	margin: 1% auto;
+	margin: 0 auto;
 	display: block;
+
+	/* disable double tap zoom */
+	touch-action: manipulation;
+}
+
+.gamefooter {
+	.gamehome { font-weight: bold; }
+}
+
+@media screen and (max-width: 800px) {
+	.gamefooter { margin-top: 0.1em; }
+}
+
+/* remove footer so it doesn't display over game */
+@media screen and (max-height: 452px) {
+	.gamefooter { visibility: hidden; }
 }
