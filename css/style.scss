@@ -17,6 +17,10 @@ main {
 
 a {
 	color: $mainFont;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 @import "navigation";
