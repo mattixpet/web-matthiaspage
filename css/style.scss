@@ -5,14 +5,35 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 $mainFont: black;
+$navWidth: 15%;
+$widthToMoveNavDown: 800px;
 
 body {
 	color: $mainFont;
+	font-size: 1.1em;
 }
 
-main {
-	height: 100%;
+body, main {
+	height: 1080px; /* fallback if vh is not supported, changed to 100% on nav move down */
 	height: 100vh;
+	overflow: auto;
+}
+
+main .normaldiv {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	.leftcolumn {
+		width: $navWidth;
+	}
+
+	.content {
+		margin: 0 auto;
+		width: 70%;
+	}
 }
 
 a {
@@ -23,10 +44,25 @@ a:hover {
 	text-decoration: underline;
 }
 
-@import "navigation";
+@import "images";
 
 @import "footer";
 
-@import "images";
+@import "navigation";
 
 @import "game";
+
+@import "newalbum";
+
+@media only screen and (max-width: 1050px) {
+	body, main { height: 100%; } /* so cover image goes all the way down */
+	main .normaldiv:last-child { padding-bottom: $footerHeight; } /* so footer doesn't display over it */
+}
+
+@media only screen and (max-width: $widthToMoveNavDown) {
+	main .normaldiv {
+		.leftcolumn { display: none; } /* delete column which doesn't do anything, just a mirror of nav */
+		.content { width: 100%;	}
+		/* nav is changed to width: 100% here, see _navigation.scss */
+	}
+}

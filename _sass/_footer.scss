@@ -1,7 +1,10 @@
+$footerHeight: 2em;
+
 footer {
-	height: 2em;
+	height: $footerHeight;
 	margin: 0 1% 0 1%;
-	margin-top: -2.5em;
+	margin-top: -$footerHeight;
+	padding-bottom: 0.5em;
 
 	text-align: center;
 

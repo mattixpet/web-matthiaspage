@@ -1,0 +1,26 @@
+.newalbum {
+	width: 100%;
+	display: block;
+	text-align: center;
+
+	> * {
+		margin: 1%;
+	}
+
+	h1 {
+		margin-top: 2%;
+	}
+}
+
+@media only screen and (max-width: $widthToMoveNavDown) {
+	.newalbum iframe {
+		height: 380px;
+
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.newalbum > * {
+		margin: 1% 0;
+	}
+}
