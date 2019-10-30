@@ -1,7 +1,7 @@
 ---
 title: Matthías Pétursson
 layout: normal
-cover: blue-sky
+cover: light-blue-sky
 ---
 
 

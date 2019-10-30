@@ -1,7 +1,7 @@
 ---
 title: About
 layout: normal
-cover: blue-sky-blurred
+cover: purple-sky
 ---
 
 About about about about about about about

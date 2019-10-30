@@ -1,7 +1,7 @@
 ---
 title: Works
 layout: normal
-cover: purple-sky
+cover: red-sky
 ---
 
 Works works works works works works works
