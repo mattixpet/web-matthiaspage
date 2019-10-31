@@ -13,13 +13,14 @@ body {
 	font-size: 1.1em;
 }
 
-body, main {
-	height: 1080px; /* fallback if vh is not supported, changed to 100% on nav move down */
+body, main, main .normaldiv {
+	height: 1080px; /* fallback if vh is not supported */
 	height: 100vh;
 	overflow: auto;
 }
 
 main .normaldiv {
+
 	display: flex;
 	align-items: left;
 	justify-content: left;

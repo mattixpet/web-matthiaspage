@@ -12,13 +12,6 @@
 	}
 }
 
-@media only screen and (max-width: $widthToMoveNavDown) {
-	.newalbum iframe {
-		height: 380px;
-
-	}
-}
-
 @media only screen and (max-width: 410px) {
 	.newalbum > * {
 		margin: 1% 0;
