@@ -4,9 +4,12 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+$frontpageCover: "light-blue-sky"; /* this must correspond to cover image in index.md */
+
 $mainFont: black;
 $navWidth: 15%;
 $widthToMoveNavDown: 800px;
+$fallbackHeight: 1080px;
 
 body {
 	color: $mainFont;
@@ -14,13 +17,12 @@ body {
 }
 
 body, main, main .normaldiv {
-	height: 1080px; /* fallback if vh is not supported */
+	height: $fallbackHeight;
 	height: 100vh;
 	overflow: auto;
 }
 
 main .normaldiv {
-
 	display: flex;
 	align-items: left;
 	justify-content: left;
@@ -56,7 +58,7 @@ a:hover {
 @import "newalbum";
 
 @media only screen and (max-width: 1050px) {
-	body, main { height: 100%; } /* so cover image goes all the way down */
+	body, main, main .#{$frontpageCover} { height: 100%; } /* so cover image goes all the way down if needed */
 	main .normaldiv:last-child { padding-bottom: $footerHeight; } /* so footer doesn't display over it */
 }
 
