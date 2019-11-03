@@ -1,4 +1,4 @@
-$footerHeight: 2em;
+$footerHeight: 4em;
 
 footer {
 	height: $footerHeight;
@@ -15,8 +15,64 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
+
+	overflow: visible;
 }
 
 footer > * {
 	margin: 0 1.5%;
+}
+
+#emaillist_form {
+	width: 100%;
+	margin-left: 0.1%;
+	margin-top: 0.1%;
+
+	> * {
+		font-size: 1rem;
+		padding: 0.1% 0.2%;
+	}
+
+	button {
+		font-size: 0.95rem;
+		padding: 0.1% 0.5em;
+
+		background-color: #f9f9f9;
+		border-radius: 10px;
+		border: 1px solid #6f6f6f;
+	}
+
+	button:hover {
+		background-color: #e9e9e9;
+		border-color: #3f3f3f;
+		cursor: pointer;
+	}
+}
+
+/* first item moves down, increasing footer height */
+@media only screen and (max-width: 479px) {
+	$footerHeight: $footerHeight + 2em;
+	footer { 
+		height: $footerHeight; 
+		margin-top: -$footerHeight;
+	}
+}
+
+/* second-to-last item moves down */
+@media only screen and (max-width: 329px) {
+	$footerHeight: $footerHeight + 3em;
+	footer { 
+		height: $footerHeight; 
+		margin-top: -$footerHeight;
+	}
+}
+
+/* last item moves down */
+@media only screen and (max-width: 309px) {
+	$footerHeight: $footerHeight + 4em;
+	footer { 
+		height: $footerHeight; 
+		margin-top: -$footerHeight;
+	}
 }

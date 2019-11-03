@@ -10,10 +10,11 @@ $mainFont: black;
 $navWidth: 15%;
 $widthToMoveNavDown: 800px;
 $fallbackHeight: 1080px;
+$normalFontSize: 1.1em;
 
 body {
 	color: $mainFont;
-	font-size: 1.1em;
+	font-size: $normalFontSize;
 }
 
 body, main, main .normaldiv {
