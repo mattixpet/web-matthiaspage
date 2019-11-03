@@ -48,6 +48,14 @@ a:hover {
 	text-decoration: underline;
 }
 
+.emaillist {
+	margin: 0 auto;
+	padding-top: 2em;
+	width: 330px;
+	height: $fallbackHeight;
+	height: 100vh;
+}
+
 @import "images";
 
 @import "footer";

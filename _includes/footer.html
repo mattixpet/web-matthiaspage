@@ -10,8 +10,5 @@
 		<img alt="" border="0" src="https://www.paypal.com/en_IS/i/scr/pixel.gif" width="1" height="1" />
 	</form>
 
-	<form action="php/emaillist.php" method="post" id="emaillist_form">
-		<input type="email" id="emaillist_text" name="email" size="18" required>
-		<button type="submit" id="emaillist_button">Join my email list!</button>
-	</form>
+	{% include emaillist.html %}
 </footer>
