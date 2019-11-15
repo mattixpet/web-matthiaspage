@@ -11,6 +11,8 @@ from email.mime.text import MIMEText
 
 import hashlib
 
+from time import sleep
+
 def main():
 	subject = '' # just one line, txt
 	with open('subject.txt', 'r', encoding="utf-8") as f:
@@ -53,6 +55,11 @@ def main():
 		# send mail
 		print('Sending email to: {}'.format(email))
 		server.sendmail(fromaddr, email, text)
+
+		# wait a bit so as to not send the emails too rapidly
+		sleep(1)
+
+	print('Done sending mail to {} people.'.format(len(emaillist)))
 
 if __name__ == "__main__":
 	main()
