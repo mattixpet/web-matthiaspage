@@ -37,6 +37,7 @@ main .normaldiv {
 	.content {
 		margin: 0 auto;
 		width: 70%;
+		text-align: center;
 	}
 }
 
@@ -63,6 +64,8 @@ a:hover {
 @import "navigation";
 
 @import "game";
+
+@import "about";
 
 @import "newalbum";
 
