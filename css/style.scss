@@ -12,6 +12,12 @@ $widthToMoveNavDown: 800px;
 $fallbackHeight: 1080px;
 $normalFontSize: 1.1em;
 
+/* the sky-picture used must match, e.g. atm purple-sky==about */
+$about: "purple-sky";
+$works: "red-sky";
+$collaborations: "crazy-sky";
+$dungeon: "black-sky";
+
 body {
 	color: $mainFont;
 	font-size: $normalFontSize;
@@ -21,6 +27,14 @@ body, main, main .normaldiv {
 	height: $fallbackHeight;
 	height: 100vh;
 	overflow: auto;
+}
+
+a {
+	color: $mainFont;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 main .normaldiv {
@@ -41,12 +55,14 @@ main .normaldiv {
 	}
 }
 
-a {
-	color: $mainFont;
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
+/* add default styling for 'normal' normal pages, like about/works etc. */
+main .#{$about}, main .#{$works}, main .#{$collaborations}, main .#{$dungeon} {
+	.content {
+		padding-top: 5%;
+		width: 40%;
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
 }
 
 .emaillist {
