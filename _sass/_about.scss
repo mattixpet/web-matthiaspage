@@ -1,3 +1,15 @@
 main .#{$about} {
 	p { margin-bottom: 5%; }
+
+	#dungeon-link:hover {
+		cursor: pointer;
+	}
+
+	.itemFlashing {
+		border: red solid 2px;
+		border-radius: 10px;
+
+		padding: 0.2% 2%;
+		background-color: lighten(red, 15%);
+	}
 }
