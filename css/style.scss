@@ -63,6 +63,9 @@ main .#{$about}, main .#{$works}, main .#{$collaborations}, main .#{$dungeon} {
 		font-size: 1.1em;
 		line-height: 1.5em;
 	}
+
+	.leftcolumn { width: 30%; }
+	nav { width: 30%; }
 }
 
 .emaillist {
