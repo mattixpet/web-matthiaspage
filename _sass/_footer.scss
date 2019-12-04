@@ -1,4 +1,5 @@
 $footerHeight: 4em;
+$footerItemMargin: 0.6%;
 
 footer {
 	height: $footerHeight;
@@ -9,7 +10,6 @@ footer {
 	text-align: center;
 
 	a { 
-		margin: 0 0.5%;
 		text-decoration: underline;
 	}
 
@@ -22,7 +22,7 @@ footer {
 }
 
 footer > * {
-	margin: 0 1.5%;
+	margin: 0 $footerItemMargin;
 }
 
 #emaillist_form {
@@ -36,6 +36,7 @@ footer > * {
 	}
 
 	button {
+		margin-left: $footerItemMargin;
 		font-size: 0.95rem;
 		padding: 0.1% 0.5em;
 
