@@ -37,6 +37,9 @@ a:hover {
 	text-decoration: underline;
 }
 
+h1 { margin: 1%; margin-top: 2%; }
+ul { list-style: none; list-style-type: none; }
+
 main .normaldiv {
 	display: flex;
 	align-items: left;
@@ -55,19 +58,6 @@ main .normaldiv {
 	}
 }
 
-/* add default styling for 'normal' normal pages, like about/works etc. */
-main .#{$about}, main .#{$works}, main .#{$collaborations}, main .#{$dungeon} {
-	.content {
-		padding-top: 5%;
-		width: 40%;
-		font-size: 1.1em;
-		line-height: 1.5em;
-	}
-
-	.leftcolumn { width: 30%; }
-	nav { width: 30%; }
-}
-
 .emaillist {
 	margin: 0 auto;
 	padding-top: 2em;
@@ -77,15 +67,11 @@ main .#{$about}, main .#{$works}, main .#{$collaborations}, main .#{$dungeon} {
 }
 
 @import "images";
-
 @import "footer";
-
 @import "navigation";
-
 @import "game";
-
 @import "about";
-
+@import "works";
 @import "newalbum";
 
 @media only screen and (max-width: 1050px) {
@@ -98,5 +84,11 @@ main .#{$about}, main .#{$works}, main .#{$collaborations}, main .#{$dungeon} {
 		.leftcolumn { display: none; } /* delete column which doesn't do anything, just a mirror of nav */
 		.content { width: 100%;	}
 		/* nav is changed to width: 100% here, see _navigation.scss */
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	h1 {
+		margin: 1% 0;
 	}
 }

@@ -1,4 +1,14 @@
 main .#{$about} {
+	.content {
+		padding-top: 5%;
+		width: 40%;
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+
+	.leftcolumn { width: 30%; }
+	nav { width: 30%; }
+	
 	p { margin-bottom: 5%; }
 
 	#dungeon-link:hover {
