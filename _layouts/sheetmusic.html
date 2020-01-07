@@ -1,0 +1,18 @@
+---
+layout: normal
+---
+
+<ul class="sheetmusic">
+{% for song in site.data.sheetmusic[page.album] %}
+	<li>
+		<div>
+			<a href="{{ song.url }}">{{ song.title }}</a>
+			<a href="{{ song.url }}">
+				<img src="{{ song.thumbnail }}" alt="{{ song.title }} sheet music">
+			</a>
+		</div>
+	</li>
+{% endfor %}
+</ul>
+
+{{ content }}

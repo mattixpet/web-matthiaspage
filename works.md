@@ -12,7 +12,7 @@ cover: red-sky
 		<li>
 			<h3>The Apple Store (30. Oct 2019)</h3>
 			{% include new_album.html %}
-			<a href="sheetmusic/theapplestore">Sheet music</a>
+			<a href="theapplestore">Sheet music</a>
 		</li>
 	</ul>
 </div>
