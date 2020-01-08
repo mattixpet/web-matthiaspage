@@ -1,0 +1,16 @@
+main .#{$collaborations} {
+	.articletext {
+		font-size: 1.1em;
+		margin-bottom: 1%;
+	}
+
+	.collabitem {
+		margin-bottom: 3%;
+	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		iframe { margin-bottom: 0.7em; }
+	}
+}
