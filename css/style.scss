@@ -43,7 +43,6 @@ ul { list-style: none; list-style-type: none; }
 main .normaldiv {
 	display: flex;
 	align-items: left;
-	justify-content: left;
 	flex-direction: row;
 	flex-wrap: wrap;
 
@@ -74,11 +73,6 @@ main .normaldiv {
 @import "works";
 @import "newalbum";
 @import "sheetmusic";
-
-@media only screen and (max-width: 1050px) {
-	body, main, main .#{$frontpageCover} { height: 100%; } /* so cover image goes all the way down if needed */
-	main .normaldiv:last-child { padding-bottom: $footerHeight; } /* so footer doesn't display over it */
-}
 
 @media only screen and (max-width: $widthToMoveNavDown) {
 	main .normaldiv {
