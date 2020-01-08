@@ -1,39 +1,42 @@
 {
-	"theapplestore" : [
-		{
-			"title" : "The Apple Store",
-			"url" : "files/sheetmusic/theapplestore/theapplestore.pdf",
-			"thumbnail" : "img/thumbnails/theapplestore/theapplestore.jpg"
-		},
-		{
-			"title" : "The Hills of Madness",
-			"url" : "files/sheetmusic/theapplestore/thehillsofmadness.pdf",
-			"thumbnail" : "img/thumbnails/theapplestore/thehillsofmadness.jpg"			
-		},
-		{
-			"title" : "Interlude 008",
-			"url" : "files/sheetmusic/theapplestore/interlude008.pdf",
-			"thumbnail" : "img/thumbnails/theapplestore/interlude008.jpg"			
-		},
-		{
-			"title" : "So Can I",
-			"url" : "files/sheetmusic/theapplestore/socani.pdf",
-			"thumbnail" : "img/thumbnails/theapplestore/socani.jpg"			
-		},
-		{
-			"title" : "Jesus Was a Carpenter",
-			"url" : "files/sheetmusic/theapplestore/jesuswasacarpenter.pdf",
-			"thumbnail" : "img/thumbnails/theapplestore/jesuswasacarpenter.jpg"			
-		},
-		{
-			"title" : "Where Was I",
-			"url" : "files/sheetmusic/theapplestore/wherewasi.pdf",
-			"thumbnail" : "img/thumbnails/theapplestore/wherewasi.jpg"			
-		},
-		{
-			"title" : "I Song Her",
-			"url" : "files/sheetmusic/theapplestore/isongher.pdf",
-			"thumbnail" : "img/thumbnails/theapplestore/isongher.jpg"			
-		}
-	]
+	"theapplestore" : {
+		"songs" : [
+			{
+				"title" : "The Apple Store",
+				"url" : "files/sheetmusic/theapplestore/theapplestore.pdf",
+				"thumbnail" : "img/thumbnails/theapplestore/theapplestore.jpg"
+			},
+			{
+				"title" : "The Hills of Madness",
+				"url" : "files/sheetmusic/theapplestore/thehillsofmadness.pdf",
+				"thumbnail" : "img/thumbnails/theapplestore/thehillsofmadness.jpg"			
+			},
+			{
+				"title" : "Interlude 008",
+				"url" : "files/sheetmusic/theapplestore/interlude008.pdf",
+				"thumbnail" : "img/thumbnails/theapplestore/interlude008.jpg"			
+			},
+			{
+				"title" : "So Can I",
+				"url" : "files/sheetmusic/theapplestore/socani.pdf",
+				"thumbnail" : "img/thumbnails/theapplestore/socani.jpg"			
+			},
+			{
+				"title" : "Jesus Was a Carpenter",
+				"url" : "files/sheetmusic/theapplestore/jesuswasacarpenter.pdf",
+				"thumbnail" : "img/thumbnails/theapplestore/jesuswasacarpenter.jpg"			
+			},
+			{
+				"title" : "Where Was I",
+				"url" : "files/sheetmusic/theapplestore/wherewasi.pdf",
+				"thumbnail" : "img/thumbnails/theapplestore/wherewasi.jpg"			
+			},
+			{
+				"title" : "I Song Her",
+				"url" : "files/sheetmusic/theapplestore/isongher.pdf",
+				"thumbnail" : "img/thumbnails/theapplestore/isongher.jpg"			
+			}
+		],
+		"zipurl" : "files/sheetmusic/theapplestore/all.zip"
+	}
 }
