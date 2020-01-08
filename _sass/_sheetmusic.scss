@@ -1,4 +1,6 @@
 .sheetmusic {
+	a:hover { text-decoration: none; }
+
 	padding-bottom: 1.5*$footerHeight;
 	display: flex;
 	align-items: center;
@@ -19,6 +21,9 @@
 			justify-content: space-between;
 		}
 	}
+
+	.downloadall { margin-top: 2%; }
+	.downloadall:hover { text-decoration: underline; }
 
 	.thumbnail {
 		height: 80px;

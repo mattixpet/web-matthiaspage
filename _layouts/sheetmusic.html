@@ -6,17 +6,17 @@ layout: normal
 
 <ul>
 {% for song in site.data.sheetmusic[page.album].songs %}
-	<li>
-		<div class="songcontainer">
-			<a class="songtitle" href="{{ song.url }}">{{ song.title }}</a>
-			<a class="songimage" href="{{ song.url }}">
-				<img class="thumbnail" src="{{ song.thumbnail }}" alt="{{ song.title }} sheet music">
-			</a>
-		</div>
-	</li>
+	<a href="{{ song.url }}">
+		<li>
+			<div class="songcontainer">
+				<p>{{ song.title }}</p>
+					<img class="thumbnail" src="{{ song.thumbnail }}" alt="{{ song.title }} sheet music">
+			</div>
+		</li>
+	</a>
 {% endfor %}
 </ul>
 
-<a href="{{ site.data.sheetmusic[page.album].zipurl }}">Download all</a>
+<a class="downloadall" href="{{ site.data.sheetmusic[page.album].zipurl }}">Download all</a>
 
 </section>
