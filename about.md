@@ -6,6 +6,9 @@ cover: purple-sky
 
 <h1>About</h1>
 
-<p class="articletext"> About about who needs an about page.. nobody reads webpages anymore, but here you are. Well I write music.. and I dislike copyright, so feel free to use my music for anything! (just credit me) Of course would be nice to be compensated monetarily if you do, but my only requirement is you credit me somewhere, and you can drop me a line as well, would be fun to see what it's used for. </p>
+<p class="articletext"> Classically influenced composer born in Reykjavík. I write music because it's something to do and I feel like music is something special. I also know what I like and other music is not always pleasing to me so I want to add to the, albeit already large, flora which does please me. </p>
 
-<p class="articletext"> And if you are very curious just <span id="dungeon-link">enter the dungeon</span>. </p>
+<p class="articletext"> If you are extremely curious try <span id="dungeon-link">entering the dungeon</span>. </p>
+
+<h2>Quotes</h2>
+<p class="articletext"> "There is such plethora of music in today's world and really no lack of musicians. The way I see it, you can either search long enough for a musical piece which is almost exactly what you envision in your head, or you can sit down and write it yourself. Personally I find the latter to be easier." </p>
