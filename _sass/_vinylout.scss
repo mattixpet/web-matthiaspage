@@ -1,0 +1,34 @@
+.vinylout {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+
+	> * {
+		margin: 1%;
+	}
+}
+
+
+$applestoreplantWidth: 58%;
+#applestoreplant {
+	width: $applestoreplantWidth;
+	height: auto;
+}
+#applestorepocket {
+	width: 98% - $applestoreplantWidth;
+	height: auto;
+}
+
+
+@media only screen and (max-width: 610px) {
+	.vinylout {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.vinylout > * {
+		margin: 1% 0;
+	}
+}
