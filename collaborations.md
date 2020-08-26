@@ -12,7 +12,13 @@ cover: crazy-sky
 </div>
 
 <div class="collabitem">
+	<p class="articletext">and here &#8595; &#8595; &#8595;</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/-FD5gfy4sCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="collabitem">
 	<p class="articletext">and keys here &#8595; &#8595; &#8595;</p>
 	<iframe src="https://open.spotify.com/embed/album/0C6QqSseHNh4UWK3Xlwcb4" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 	<iframe src="https://open.spotify.com/embed/album/4MCeHoGjpqhkfdBIhHJSFi" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
+
