@@ -1,5 +1,6 @@
 _site
 .sass-cache
+.jekyll-cache
 
 _local_server_access_data
 
