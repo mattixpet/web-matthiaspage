@@ -2,13 +2,25 @@ main .#{$works} {
 	h2 { margin-bottom: 3%; }
 	h3 { margin-bottom: 1%; }
 
-	.albums {
+	.allworks {
 		padding-bottom: 10%;
 
-		.albumlink { 
-			font-size: 1.1em;
-			font-weight: bold;
-			margin-right: 1em;
-		}
+		> * { padding-bottom: 4%; }
 	}
+
+	.albumlink { 
+		font-size: 1.1em;
+		font-weight: bold;
+		margin-right: 1em;
+	}
+
+	.singlemiscsong {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		> * { padding: 0.5% 1%; }
+	}
+
+	.jolaserianlist { margin-bottom: 0.5em; }
 }

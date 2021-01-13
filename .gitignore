@@ -5,3 +5,6 @@ _site
 _local_server_access_data
 
 _dev/sky_old_sizes
+
+#no need to git this.. just make sure to backup somewhere else
+files/recordings
