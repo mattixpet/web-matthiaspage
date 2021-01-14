@@ -23,4 +23,8 @@ main .#{$works} {
 	}
 
 	.jolaserianlist { margin-bottom: 0.5em; }
+
+	.misclist { 
+		> li { margin-bottom: 2.5%; }
+	}
 }

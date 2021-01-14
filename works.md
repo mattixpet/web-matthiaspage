@@ -23,7 +23,7 @@ cover: red-sky
 
 <div class="misc">
 	<h2>Other Works</h2>
-	<ul>
+	<ul class="misclist">
 		<li>
 			<h3>Litla Jólaserían (24. Dec 2020)</h3>
 			<ul class="jolaserianlist">
@@ -53,6 +53,14 @@ cover: red-sky
 					%}</li>
 			</ul>
 			<a class="albumlink" href="sheets/litlajolaserian">&#8594; Sheet music &#8592;</a>
+		</li>
+		<li>
+			<h3>Lítil Óskata (23. Dec 2017)</h3>
+			{% include single_misc_song.html 
+				name="Lítil Óskata" 
+				recurl="/files/recordings/misc/litil-oskata.mp3"
+			%}
+			<a class="albumlink" href="files/sheetmusic/misc/litil-oskata.pdf" target="_blank">&#8594; Sheet music &#8592;</a>
 		</li>
 	</ul>
 </div>
