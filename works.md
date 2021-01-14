@@ -26,7 +26,7 @@ cover: red-sky
 	<ul class="misclist">
 		<li>
 			<h3>Litla Jólaserían (24. Dec 2020)</h3>
-			<ul class="jolaserianlist">
+			<ul class="miscalbum">
 				<li>{% include single_misc_song.html 
 						name="Ásta" 
 						recurl="/files/recordings/litlajolaserian/asta-jola.mp3"
@@ -61,6 +61,32 @@ cover: red-sky
 				recurl="/files/recordings/misc/hraunioxn.mp3"
 			%}
 			<a class="albumlink" href="files/sheetmusic/misc/hraunioxn.pdf" target="_blank">&#8594; Sheet music &#8592;</a>
+		</li>
+		<li>
+			<h3>Tónsmíðar TSDK (Winter 2020-21)</h3>
+			<ul class="miscalbum">
+				<li>{% include single_misc_song.html 
+						name="The Joy of Christmas" 
+						recurl="/files/recordings/tonsmidartsdk/thejoyofchristmas.mp3"
+					%}</li>
+				<li>{% include single_misc_song.html 
+						name="Hrifning (Ástríðurnar Fjórar)" 
+						recurl="/files/recordings/tonsmidartsdk/hrifning-astridurnar.mp3"
+					%}</li>
+				<li>{% include single_misc_song.html 
+						name="John Cale Tribute" 
+						recurl="/files/recordings/tonsmidartsdk/johncaletribute.mp3"
+					%}</li>
+				<li>{% include single_misc_song.html 
+						name="Lay an Egg Layer" 
+						recurl="/files/recordings/tonsmidartsdk/layanegglayer.mp3"
+					%}</li>
+				<li class="centersmallname">{% include single_misc_song.html 
+						name="Brock 2" 
+						recurl="/files/recordings/tonsmidartsdk/brock2.mp3"
+					%}</li>
+			</ul>
+			<a class="albumlink" href="sheets/tonsmidartsdk">&#8594; Sheet music &#8592;</a>
 		</li>
 		<li class="singlemisclistitem">
 			<h3>Lítil Óskata (23. Dec 2017)</h3>

@@ -73,5 +73,35 @@
 			}
 		],
 		"zipurl" : "../files/sheetmusic/litlajolaserian/all.zip"
+	},
+	"tonsmidartsdk" : {
+		"songs" : [
+			{
+				"title" : "The Joy Of Christmas",
+				"url" : "../files/sheetmusic/tonsmidartsdk/thejoyofchristmas.pdf",
+				"thumbnail" : "../img/thumbnails/tonsmidartsdk/thejoyofchristmas.jpg"
+			},
+			{
+				"title" : "Hrifning (Ástríðurnar Fjórar)",
+				"url" : "../files/sheetmusic/tonsmidartsdk/hrifning-astridurnar.pdf",
+				"thumbnail" : "../img/thumbnails/tonsmidartsdk/hrifning-astridurnar.jpg"			
+			},
+			{
+				"title" : "John Cale Tribute",
+				"url" : "../files/sheetmusic/tonsmidartsdk/johncaletribute.pdf",
+				"thumbnail" : "../img/thumbnails/tonsmidartsdk/johncaletribute.jpg"			
+			},
+			{
+				"title" : "Lay an Egg Layer",
+				"url" : "../files/sheetmusic/tonsmidartsdk/layanegglayer.pdf",
+				"thumbnail" : "../img/thumbnails/tonsmidartsdk/layanegglayer.jpg"			
+			},
+			{
+				"title" : "Brock 2",
+				"url" : "../files/sheetmusic/tonsmidartsdk/brock2.pdf",
+				"thumbnail" : "../img/thumbnails/tonsmidartsdk/brock2.jpg"			
+			}
+		],
+		"zipurl" : "../files/sheetmusic/tonsmidartsdk/all.zip"
 	}
 }

@@ -13,12 +13,13 @@ main .#{$works} {
 		margin-right: 1em;
 	}
 
-	.jolaserianlist { margin-bottom: 0.5em; }
 	.misclist { 
 		> li { margin-bottom: 2.5%; }
+		.miscalbum { margin-bottom: 0.5em; }
 		.singlemisclistitem { 
 			.singlemiscsong { margin-bottom: 0.5em; }
 		}
+		.centersmallname h3 { margin: 0 auto; }
 	}
 
 	.singlemiscsong {
