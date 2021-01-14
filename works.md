@@ -54,7 +54,7 @@ cover: red-sky
 			</ul>
 			<a class="albumlink" href="sheets/litlajolaserian">&#8594; Sheet music &#8592;</a>
 		</li>
-		<li>
+		<li class="litiloskata">
 			<h3>Lítil Óskata (23. Dec 2017)</h3>
 			{% include single_misc_song.html 
 				name="Lítil Óskata" 

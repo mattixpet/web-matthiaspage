@@ -7,24 +7,28 @@ main .#{$works} {
 
 		> * { padding-bottom: 4%; }
 	}
-
 	.albumlink { 
 		font-size: 1.1em;
 		font-weight: bold;
 		margin-right: 1em;
 	}
 
-	.singlemiscsong {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		> * { padding: 0.5% 1%; }
-	}
-
 	.jolaserianlist { margin-bottom: 0.5em; }
-
 	.misclist { 
 		> li { margin-bottom: 2.5%; }
+		.litiloskata { 
+			.singlemiscsong { margin-bottom: 0.5em; }
+		}
+	}
+
+	.singlemiscsong {
+		margin: 0 auto;
+		max-width: 420px;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		> * { padding: 0.6% 1%; }
 	}
 }
