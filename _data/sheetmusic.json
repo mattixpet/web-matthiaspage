@@ -38,5 +38,40 @@
 			}
 		],
 		"zipurl" : "../files/sheetmusic/theapplestore/all.zip"
+	},
+	"litlajolaserian" : {
+		"songs" : [
+			{
+				"title" : "Ásta",
+				"url" : "../files/sheetmusic/litlajolaserian/asta-jola.pdf",
+				"thumbnail" : "../img/thumbnails/litlajolaserian/asta-jola.jpg"
+			},
+			{
+				"title" : "Elínbjört",
+				"url" : "../files/sheetmusic/litlajolaserian/elinbjort-jola.pdf",
+				"thumbnail" : "../img/thumbnails/litlajolaserian/elinbjort-jola.jpg"			
+			},
+			{
+				"title" : "Hildur",
+				"url" : "../files/sheetmusic/litlajolaserian/hildur-jola.pdf",
+				"thumbnail" : "../img/thumbnails/litlajolaserian/hildur-jola.jpg"			
+			},
+			{
+				"title" : "Mamma",
+				"url" : "../files/sheetmusic/litlajolaserian/mamma-jola.pdf",
+				"thumbnail" : "../img/thumbnails/litlajolaserian/mamma-jola.jpg"			
+			},
+			{
+				"title" : "Ósk",
+				"url" : "../files/sheetmusic/litlajolaserian/osk-jola.pdf",
+				"thumbnail" : "../img/thumbnails/litlajolaserian/osk-jola.jpg"			
+			},
+			{
+				"title" : "Pabbi",
+				"url" : "../files/sheetmusic/litlajolaserian/pabbi-jola.pdf",
+				"thumbnail" : "../img/thumbnails/litlajolaserian/pabbi-jola.jpg"			
+			}
+		],
+		"zipurl" : "../files/sheetmusic/litlajolaserian/all.zip"
 	}
 }
