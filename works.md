@@ -54,7 +54,15 @@ cover: red-sky
 			</ul>
 			<a class="albumlink" href="sheets/litlajolaserian">&#8594; Sheet music &#8592;</a>
 		</li>
-		<li class="litiloskata">
+		<li class="singlemisclistitem">
+			<h3>Hraun í Öxnadal (8. Oct 2020)</h3>
+			{% include single_misc_song.html 
+				name="Hraun í Öxnadal" 
+				recurl="/files/recordings/misc/hraunioxn.mp3"
+			%}
+			<a class="albumlink" href="files/sheetmusic/misc/hraunioxn.pdf" target="_blank">&#8594; Sheet music &#8592;</a>
+		</li>
+		<li class="singlemisclistitem">
 			<h3>Lítil Óskata (23. Dec 2017)</h3>
 			{% include single_misc_song.html 
 				name="Lítil Óskata" 

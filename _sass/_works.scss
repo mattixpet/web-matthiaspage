@@ -16,14 +16,14 @@ main .#{$works} {
 	.jolaserianlist { margin-bottom: 0.5em; }
 	.misclist { 
 		> li { margin-bottom: 2.5%; }
-		.litiloskata { 
+		.singlemisclistitem { 
 			.singlemiscsong { margin-bottom: 0.5em; }
 		}
 	}
 
 	.singlemiscsong {
 		margin: 0 auto;
-		max-width: 420px;
+		max-width: 440px;
 
 		display: flex;
 		justify-content: space-between;
