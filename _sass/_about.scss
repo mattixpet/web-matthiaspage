@@ -14,10 +14,19 @@ main .#{$about} {
 		font-size: 1.1em; 
 	}
 
+	.social-icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: 8%;
+
+		img { width: 60px; height: 60px; }
+	}
+
 	#dungeon-link:hover {
 		cursor: pointer;
 	}
-
 	.itemFlashing {
 		border: red solid 2px;
 		border-radius: 10px;
