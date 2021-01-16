@@ -22,6 +22,7 @@ main .#{$about} {
 		margin-top: 8%;
 
 		img { width: 60px; height: 60px; }
+		a:hover { opacity: 0.85; }
 	}
 
 	#dungeon-link:hover {
