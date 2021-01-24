@@ -53,6 +53,7 @@ cover: red-sky
 					%}</li>
 			</ul>
 			<a class="albumlink" href="sheets/litlajolaserian">&#8594; Sheet music &#8592;</a>
+			<a class="albumlink" href="https://www.youtube.com/watch?v=18EFC-M1pWA&list=PLQ7zN7BEt16Q0rZHiFWTmqjdKNqVgAYam">Youtube</a>
 		</li>
 		<li class="singlemisclistitem">
 			<h3>Hraun í Öxnadal (8. Oct 2020)</h3>
@@ -68,7 +69,9 @@ cover: red-sky
 				<li>{% include single_misc_song.html 
 						name="The Joy of Christmas" 
 						recurl="/files/recordings/tonsmidartsdk/thejoyofchristmas.mp3"
-					%}</li>
+					%}
+					<a class="albumlink" href="https://www.youtube.com/watch?v=Wgy9IoFDxTQ">Youtube</a>
+					</li>
 				<li>{% include single_misc_song.html 
 						name="Hrifning (Ástríðurnar Fjórar)" 
 						recurl="/files/recordings/tonsmidartsdk/hrifning-astridurnar.mp3"
