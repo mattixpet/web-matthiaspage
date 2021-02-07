@@ -34,5 +34,7 @@ main .#{$about} {
 
 		padding: 0.2% 2%;
 		background-color: lighten(red, 15%);
+
+		display: inline;
 	}
 }
