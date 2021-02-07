@@ -13,10 +13,10 @@ cover: red-sky
 		<li>
 			<h3>The Apple Store (30. Oct 2019)</h3>
 			{% include theapplestore_album.html %}
-			<a class="albumlink" href="sheets/theapplestore">&#8594; Sheet music &#8592;</a>
 			<a class="albumlink" href="https://www.youtube.com/watch?v=tvbTjBbmmI8">Youtube</a>
 			<a class="albumlink" href="https://open.spotify.com/album/5Z5XuMOJ8GwwIsRBDBx0DY">Spotify</a>
 			<a class="albumlink" href="https://matthiaspetursson.bandcamp.com/album/the-apple-store">Bandcamp</a>
+			<a class="albumlink" href="sheets/theapplestore">Sheet music</a>
 		</li>
 	</ul>
 </div>
@@ -52,8 +52,8 @@ cover: red-sky
 						recurl="/files/recordings/litlajolaserian/pabbi-jola.mp3"
 					%}</li>
 			</ul>
-			<a class="albumlink" href="sheets/litlajolaserian">&#8594; Sheet music &#8592;</a>
 			<a class="albumlink" href="https://www.youtube.com/watch?v=18EFC-M1pWA&list=PLQ7zN7BEt16Q0rZHiFWTmqjdKNqVgAYam">Youtube</a>
+			<a class="albumlink" href="sheets/litlajolaserian">Sheet music</a>
 		</li>
 		<li class="singlemisclistitem">
 			<h3>Hraun í Öxnadal (8. Oct 2020)</h3>
@@ -61,7 +61,7 @@ cover: red-sky
 				name="Hraun í Öxnadal" 
 				recurl="/files/recordings/misc/hraunioxn.mp3"
 			%}
-			<a class="albumlink" href="files/sheetmusic/misc/hraunioxn.pdf" target="_blank">&#8594; Sheet music &#8592;</a>
+			<a class="albumlink" href="files/sheetmusic/misc/hraunioxn.pdf">Sheet music</a>
 		</li>
 		<li>
 			<h3>Tónsmíðar TSDK (Winter 2020-21)</h3>
@@ -89,7 +89,7 @@ cover: red-sky
 						recurl="/files/recordings/tonsmidartsdk/brock2.mp3"
 					%}</li>
 			</ul>
-			<a class="albumlink" href="sheets/tonsmidartsdk">&#8594; Sheet music &#8592;</a>
+			<a class="albumlink" href="sheets/tonsmidartsdk">Sheet music</a>
 		</li>
 		<li class="singlemisclistitem">
 			<h3>Lítil Óskata (23. Dec 2017)</h3>
@@ -97,8 +97,8 @@ cover: red-sky
 				name="Lítil Óskata" 
 				recurl="/files/recordings/misc/litil-oskata.mp3"
 			%}
-			<a class="albumlink" href="files/sheetmusic/misc/litil-oskata.pdf" target="_blank">&#8594; Sheet music &#8592;</a>
 			<a class="albumlink" href="https://www.youtube.com/watch?v=ZDFHr3ubVUE">Youtube</a>
+			<a class="albumlink" href="files/sheetmusic/misc/litil-oskata.pdf">Sheet music</a>
 		</li>
 	</ul>
 </div>
