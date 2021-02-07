@@ -1,5 +1,39 @@
+/* This applies to the sheetmusic.html page itself */
+$sheethovercolor: #00638B;
+
+main .#{$sheetmusic} {
+	h3 { padding: 2% 0; }
+	h4 { padding: 0.5% 0; }
+
+	.sheetmusiclist {
+		margin-bottom: 2em;
+		li {
+			margin: 5px 0px;
+			a { 
+				display: block;
+				padding: 6px 1px; /* to make complete list item clickable */
+			}
+		}
+
+		a:hover { 
+			background-color: $sheethovercolor; 
+			text-decoration: none;
+		}
+	}
+	.bottomsheetmusiclist { margin-bottom: 5em; }
+
+	.sheetmusiccontainer { 
+		width: 400px;
+		margin: 0 auto;
+	}
+}
+
+/* This applies to the sheet music for albums etc. from links in Works (and links in sheetmusic.md ofc) */
 .sheetmusic {
 	a:hover { text-decoration: none; }
+	
+	li:hover { background-color: $sheethovercolor; }
+
 
 	padding-bottom: 3%;
 	display: flex;
@@ -8,11 +42,11 @@
 	flex-direction: column;
 
 	ul {
-		width: 250px;
+		width: 300px;
 		margin: 1% 0;
 
 		.songcontainer {
-			padding: 1% 0;
+			padding: 1.5% 10%;
 
 			> * { padding: 1% 0; }
 
