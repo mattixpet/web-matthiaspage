@@ -98,6 +98,7 @@ cover: red-sky
 				recurl="/files/recordings/misc/litil-oskata.mp3"
 			%}
 			<a class="albumlink" href="files/sheetmusic/misc/litil-oskata.pdf" target="_blank">&#8594; Sheet music &#8592;</a>
+			<a class="albumlink" href="https://www.youtube.com/watch?v=ZDFHr3ubVUE">Youtube</a>
 		</li>
 	</ul>
 </div>
