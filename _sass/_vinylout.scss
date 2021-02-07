@@ -1,6 +1,8 @@
+/* CSS for front page news */
 .vinylout {
 	width: 80%;
 	margin: 0 auto;
+	margin-bottom: 3.5%;
 	display: flex;
 	align-items: center;
 
@@ -8,7 +10,13 @@
 		margin: 1%;
 	}
 }
+.flakytitle { 
+	display: block; 
+	margin: 2% 1% 0.8% 1%;
 
+	h1 { margin: 0.2% 0 0 0; }
+}
+.bottomvinylout { margin-bottom: 6%; }
 
 $applestoreplantWidth: 58%;
 #applestoreplant {
@@ -20,13 +28,11 @@ $applestoreplantWidth: 58%;
 	height: auto;
 }
 
-
 @media only screen and (max-width: 610px) {
 	.vinylout {
 		width: 100%;
 	}
 }
-
 @media only screen and (max-width: 410px) {
 	.vinylout > * {
 		margin: 1% 0;
