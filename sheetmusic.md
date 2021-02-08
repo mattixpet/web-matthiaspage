@@ -32,6 +32,7 @@ cover: yellow-sky
 	<li><a href="/files/sheetmusic/otherartists/guitar/HongKong.pdf">Hong Kong - Gorillaz</a></li>
 	<li><a href="/files/sheetmusic/otherartists/guitar/Julia.pdf">Julia - The Beatles</a></li>
 	<li><a href="/files/sheetmusic/otherartists/guitar/SoundOfSilence.pdf">The Sound of Silence - Simon & Garfunkel</a></li>
+	<li><a href="/files/sheetmusic/otherartists/guitar/YouAreMySunshine.pdf">You Are My Sunshine - Davis, Mitchell</a></li>
 </ul>
 
 </div>
