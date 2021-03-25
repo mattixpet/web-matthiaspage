@@ -12,24 +12,48 @@
   if (sizeof($errors) === 0) {
     $method = $_SERVER['REQUEST_METHOD'];
     if ($method === 'POST') {
-      $email = $_POST['email'];
+      // gnaften = netfang backwards, spam protection
+      $email = $_POST['gnaften'];
       if ($email) {
-        $results = array();
+        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+          $results = array();
 
-        $query = $conn->prepare(
-          'INSERT INTO emails (email) ' .
-          'VALUES (:email) ' .
-          'ON DUPLICATE KEY UPDATE id = id'
-        );
-        $results[] = $query->execute(array('email' => $email));
+          $query = $conn->prepare(
+            'INSERT INTO emails (email) ' .
+            'VALUES (:email) ' .
+            'ON DUPLICATE KEY UPDATE id = id'
+          );
+          $results[] = $query->execute(array('email' => $email));
 
-        if (sizeof($results) === 0) {
-          echo 'Failed to add email! Sorry try again, or just contact me directly, I\'ll add you to the list. <a href="/">Back</a>';
+          if (sizeof($results) === 0) {
+            echo 'Failed to add email! Sorry try again, or just contact me directly, I\'ll add you to the list. <a href="/">Back</a>';
+          } else {
+            echo 'Thank you! You have been added to my email list! :D <a href="/">Back</a>';
+          }
         } else {
-          echo 'Thank you! You have been added to my email list! :D <a href="/">Back</a>';
+          $query = $conn->prepare(
+            'INSERT INTO wrong_format_emails (email) ' .
+            'VALUES (:email) ' .
+            'ON DUPLICATE KEY UPDATE id = id'
+          );
+          $query->execute(array('email' => $email));
+
+          echo 'Email was on wrong format, please try again. :( <a href="/">Back</a>';
         }
       } else {
         echo 'Something went wrong. :( <a href="/">Back</a>';
+      }
+
+      $spam = $_POST['email'];
+      if ($spam) {
+        $query = $conn->prepare(
+          'INSERT INTO known_spam (email) ' .
+          'VALUES (:email) ' .
+          'ON DUPLICATE KEY UPDATE id = id'
+        );
+        $query->execute(array('email' => $spam));
+
+        echo 'Nice spam bro. Or if you are not a spammer, sorry the real form input is the text field, not the hidden email field. <a href="/">Back</a>';
       }
     }
   }
