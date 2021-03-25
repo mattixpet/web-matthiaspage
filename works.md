@@ -66,6 +66,14 @@ cover: red-sky
 		<li>
 			<h3>Tónsmíðar TSDK (Winter 2020-21)</h3>
 			<ul class="miscalbum">
+				<li class="centersmallname">{% include single_misc_song.html 
+						name="Vals" 
+						recurl="/files/recordings/tonsmidartsdk/vals.mp3"
+					%}</li>
+				<li>{% include single_misc_song.html 
+						name="Angelic Canon" 
+						recurl="/files/recordings/tonsmidartsdk/angeliccanon.mp3"
+					%}</li>
 				<li>{% include single_misc_song.html 
 						name="The Joy of Christmas" 
 						recurl="/files/recordings/tonsmidartsdk/thejoyofchristmas.mp3"

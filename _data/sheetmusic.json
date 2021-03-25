@@ -77,6 +77,16 @@
 	"tonsmidartsdk" : {
 		"songs" : [
 			{
+				"title" : "Vals",
+				"url" : "../files/sheetmusic/tonsmidartsdk/vals.pdf",
+				"thumbnail" : "../img/thumbnails/tonsmidartsdk/vals.jpg"
+			},
+			{
+				"title" : "Angelic Canon",
+				"url" : "../files/sheetmusic/tonsmidartsdk/angeliccanon.pdf",
+				"thumbnail" : "../img/thumbnails/tonsmidartsdk/angeliccanon.jpg"
+			},
+			{
 				"title" : "The Joy Of Christmas",
 				"url" : "../files/sheetmusic/tonsmidartsdk/thejoyofchristmas.pdf",
 				"thumbnail" : "../img/thumbnails/tonsmidartsdk/thejoyofchristmas.jpg"
