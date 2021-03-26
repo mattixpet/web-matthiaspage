@@ -13,8 +13,8 @@ var chatname = document.getElementById('chatname');
 document.addEventListener('DOMContentLoaded', function (e){
 	displayChat();
 	chatsend.addEventListener('click', updateChat);
-	chatmsg.addEventListener('click', updateOnEnter);
-	chatname.addEventListener('click', updateOnEnter);
+	chatmsg.addEventListener('keypress', updateOnEnter);
+	chatname.addEventListener('keypress', updateOnEnter);
 });
 
 // get everything from our logs database and display
@@ -55,25 +55,6 @@ function displayChat() {
 		}
 	};
 	xhr.send();
-
-	// $.get(phpURL, function(data) {
-	// 	data = JSON.parse(data);
-	// 	// never show more than 50 messages ago
-	// 	var datalen = data.length;
-	// 	if (datalen > 50) {
-	// 		var start = datalen - 50;
-	// 	} else {
-	// 		var start = 0;
-	// 	}
-	// 	for (var i = start; i < datalen; i++) {
-	// 		var row = data[i];
-	// 		var newP = $("<p></p>");
-	// 		newP.appendTo(chat);
-	// 		newP.text(row['name'] + ': ' + row['message']); // this is the html escaping...!!! (jquery's text)
-	// 	}
-	// 	// scroll to bottom of chat, thanks http://stackoverflow.com/questions/270612/scroll-to-bottom-of-div
-	// 	chat.scrollTop(chat[0].scrollHeight);
-	// });
 };
 
 function updateChat() {

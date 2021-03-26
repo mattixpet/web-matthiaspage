@@ -18,16 +18,19 @@ cover: black-sky
 
 <!-- This chat requires javascript -->
 <div class="chat">
+	<h3>Shoutbox</h3>
 	<div id="chatcontent"></div>
-	<label for="chatname">
-		Name:
-		<input id="chatname" type="text">
-	</label>
-	<label for="chatmsg">
-		Message:
-		<input id="chatmsg" type="text">
-	</label>
-	<button id="chatsend">Send!</button>
+	<div class="chatcontrols">
+		<label for="chatname">
+			Name:
+			<input id="chatname" type="text">
+		</label>
+		<label for="chatmsg">
+			Message:
+			<input id="chatmsg" type="text">
+		</label>
+		<button id="chatsend">Send!</button>
+	</div>
 </div>
 
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>

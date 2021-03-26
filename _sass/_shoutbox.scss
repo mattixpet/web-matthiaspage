@@ -1,0 +1,47 @@
+$textColor: white;
+$backgroundColor: black;
+
+.chat {
+	margin: 0 auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	padding: 0 0.1em 0 0;
+	max-width: 500px;
+	
+	#chatcontent {
+		margin: 0.2em 0 0.2em 0;
+		border: 1px solid $textColor;
+		height: 300px;
+		overflow-y: scroll;
+		scrollbar-color: $textColor $backgroundColor;
+	}
+	.chatcontrols {
+		margin-left: 2.5%;
+		font-size: 1.1em;
+	}
+
+	input[type="text"] {
+		width: 100px;
+		background: $backgroundColor;
+		color: $textColor;
+	}
+	button {
+		width: 85px;
+		background-color: $backgroundColor;
+		color: $textColor;
+		margin-left: 1%;
+	}
+	input, button {
+		margin-right: 3%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.chat {
+		input, button {
+			margin-right: 0.1%;
+		}
+		button { margin-left: 0; }
+	}
+	.chatcontrols { margin-left: 0; }
+}
