@@ -15,3 +15,21 @@ cover: black-sky
 	<h4>Musicians I like in no particular order or exhaustiveness:</h4>
 	<p class="articletext">Apparat Organ Quartet, Sigurrós, Ásgeir Trausti, Wisp, Shook, J.S. Bach, Beethoven, Pink Floyd, Genesis, Supertramp, One Week Wonder, Retrobot, Fanny Mendelssohn, Atli Heimir, Ring of Gyges, Trúbrot, Hewkii, Matt Uelmen, Yelle, Mort Garson, Liszt, Premiata Forneria Marconi, Debussy, Ennio Morricone, The Doors, Arvo Pärt, The Alan Parsons Project, Dj Alice, Gorillaz, Prins Póló, Camel, The Beatles, Regina Spektor, Shigeto, Jóhanna Guðrún, Gísli Pálmi, Radiohead, Coldplay, múm, Godspeed You! Black Emperor, Daft Punk, Imagine Dragons, Wendy Carlos, Röyksopp, Philip Glass, Antonín Dvořák, AC/DC, Yes, Bob Dylan, Chopin, Hans Zimmer, John Williams, Vivaldi, Koji Kondo, Akemi Kimura, Masakazu Sugimori, Naoto Tanaka, Noriyuki Iwadare, Motoi Sakuraba, Antonio Lotti, Ravel, Max Ricther, Josef Rheinberger, Henry Purcell and Johann Joseph Fux.</p>
 </div>
+
+<!-- This chat requires javascript -->
+<div class="chat">
+	<div id="chatcontent"></div>
+	<label for="chatname">
+		Name:
+		<input id="chatname" type="text">
+	</label>
+	<label for="chatmsg">
+		Message:
+		<input id="chatmsg" type="text">
+	</label>
+	<button id="chatsend">Send!</button>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/chat.js"></script>
+<!-- <script src="static/js/chatDisplayHack.js" type="text/javascript"></script> -->
