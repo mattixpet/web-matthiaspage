@@ -19,8 +19,10 @@ $collaborations: "crazy-sky";
 $dungeon: "black-sky";
 $sheetmusic: "yellow-sky";
 
+@import "fonts";
+
 body {
-	font-family: constantia, serif;
+	font-family: constantia, palatino, serif;
 	color: $mainFont;
 	font-size: $normalFontSize;
 }

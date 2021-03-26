@@ -33,6 +33,4 @@ cover: black-sky
 	</div>
 </div>
 
-<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/chat.js"></script>
-<!-- <script src="static/js/chatDisplayHack.js" type="text/javascript"></script> -->
