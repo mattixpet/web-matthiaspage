@@ -12,6 +12,9 @@ main .#{$works} {
 		font-weight: bold;
 		margin-right: 1em;
 	}
+	.albums {
+		li { margin-bottom: 3%; }
+	}
 
 	.misclist { 
 		> li { margin-bottom: 2.5%; }

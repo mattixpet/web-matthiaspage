@@ -1,4 +1,49 @@
 {
+	"hinarnyjukaerustur" : {
+		"songs" : [
+			{
+				"title" : "Cayce",
+				"url" : "../files/sheetmusic/hinarnyjukaerustur/cayce.pdf",
+				"thumbnail" : "../img/thumbnails/hinarnyjukaerustur/cayce.jpg"
+			},
+			{
+				"title" : "Bryndís",
+				"url" : "../files/sheetmusic/hinarnyjukaerustur/bryndis.pdf",
+				"thumbnail" : "../img/thumbnails/hinarnyjukaerustur/bryndis.jpg"			
+			},
+			{
+				"title" : "Anna",
+				"url" : "../files/sheetmusic/hinarnyjukaerustur/anna.pdf",
+				"thumbnail" : "../img/thumbnails/hinarnyjukaerustur/anna.jpg"			
+			},
+			{
+				"title" : "Katie",
+				"url" : "../files/sheetmusic/hinarnyjukaerustur/katie.pdf",
+				"thumbnail" : "../img/thumbnails/hinarnyjukaerustur/katie.jpg"			
+			},
+			{
+				"title" : "Kathryn",
+				"url" : "../files/sheetmusic/hinarnyjukaerustur/kathryn.pdf",
+				"thumbnail" : "../img/thumbnails/hinarnyjukaerustur/kathryn.jpg"			
+			},
+			{
+				"title" : "Idunn",
+				"url" : "../files/sheetmusic/hinarnyjukaerustur/idunn.pdf",
+				"thumbnail" : "../img/thumbnails/hinarnyjukaerustur/idunn.jpg"			
+			},
+			{
+				"title" : "Þórunn Birta Júlíudóttir",
+				"url" : "../files/sheetmusic/hinarnyjukaerustur/thorunn1.pdf",
+				"thumbnail" : "../img/thumbnails/hinarnyjukaerustur/thorunn1.jpg"			
+			},
+			{
+				"title" : "Þórunn Birta (alternate version)",
+				"url" : "../files/sheetmusic/hinarnyjukaerustur/thorunn2.pdf",
+				"thumbnail" : "../img/thumbnails/hinarnyjukaerustur/thorunn2.jpg"			
+			}
+		],
+		"zipurl" : "../files/sheetmusic/hinarnyjukaerustur/all.zip"
+	},
 	"theapplestore" : {
 		"songs" : [
 			{

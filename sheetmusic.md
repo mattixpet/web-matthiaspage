@@ -10,6 +10,7 @@ cover: yellow-sky
 
 <h3>My own works</h3>
 <ul class="sheetmusiclist">
+	<li><a href="/sheets/hinarnyjukaerustur">Hinar Nýju Kærustur Matthíasar Þriðja</a></li>
 	<li><a href="/sheets/theapplestore">The Apple Store</a></li>
 	<li><a href="/sheets/litlajolaserian">Litla Jólaserían</a></li>
 	<li><a href="/files/sheetmusic/misc/hraunioxn.pdf">Hraun í Öxnadal</a></li>

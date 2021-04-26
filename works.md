@@ -11,6 +11,18 @@ cover: red-sky
 	<h2>Studio albums</h2>
 	<ul>
 		<li>
+			<h3>Hinar Nýju Kærustur Matthíasar Þriðja (22. Apr 2021)</h3>
+			<div class="vinylout hnkalbum">
+				<iframe src="https://open.spotify.com/embed/album/5sRwKvAlTZO2utFkhETLRN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+				<iframe style="border: 0; width: 400px; height: 380px;" src="https://bandcamp.com/EmbeddedPlayer/album=3270811882/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://matthiaspetursson.bandcamp.com/album/hinar-n-ju-k-rustur-matth-asar-ri-ja">Hinar Nýju Kærustur Matthíasar Þriðja by Matthías Pétursson</a></iframe>
+			</div>
+			<a class="albumlink" href="https://youtu.be/NWGWSRxq-J8">Youtube</a>
+			<a class="albumlink" href="https://open.spotify.com/album/5sRwKvAlTZO2utFkhETLRN">Spotify</a>
+			<a class="albumlink" href="https://matthiaspetursson.bandcamp.com/album/hinar-n-ju-k-rustur-matth-asar-ri-ja">Bandcamp</a>
+			<a class="albumlink" href="sheets/hinarnyjukaerustur">Sheet music</a>
+		</li>
+		<li>
 			<h3>The Apple Store (30. Oct 2019)</h3>
 			{% include theapplestore_album.html %}
 			<a class="albumlink" href="https://www.youtube.com/watch?v=tvbTjBbmmI8">Youtube</a>
