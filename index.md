@@ -5,6 +5,12 @@ cover: light-blue-sky
 ---
 
 <div class="flakytitle">
+	<h5>22. Apr 2021</h5>
+	<h1>ALBUM AND VINYL IS OUT !!!</h1>
+</div>
+{% include hinarnyjukaerustur_album.html %}
+
+<div class="flakytitle">
 	<h5>31. Mar 2020</h5>
 	<h1>VINYL IS OUT !!!</h1>
 </div>

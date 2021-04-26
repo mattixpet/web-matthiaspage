@@ -5,6 +5,7 @@
 	margin-bottom: 3.5%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 
 	> * {
 		margin: 1%;
@@ -28,6 +29,31 @@ $applestoreplantWidth: 58%;
 	height: auto;
 }
 
+#hnkcover {
+	width: 45%;
+	height: auto;
+}
+#hnkphoto {
+	width: 45%;
+	height: auto;
+}
+.hnkalbum { margin-bottom: 0; }
+.hnkvinyl { margin-top: 0; }
+
+.newalbum {
+	width: 100%;
+	display: block;
+	text-align: center;
+
+	> * {
+		margin: 1%;
+	}
+}
+
+@media only screen and (max-width: 1010px) {
+	.vinylout {	flex-direction: column; }
+	#hnkphoto, #hnkcover { width: 80%; }
+}
 @media only screen and (max-width: 610px) {
 	.vinylout {
 		width: 100%;
@@ -35,6 +61,9 @@ $applestoreplantWidth: 58%;
 }
 @media only screen and (max-width: 410px) {
 	.vinylout > * {
+		margin: 1% 0;
+	}
+	.newalbum > * {
 		margin: 1% 0;
 	}
 }
