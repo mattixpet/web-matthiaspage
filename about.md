@@ -6,11 +6,9 @@ cover: purple-sky
 
 <h1>About</h1>
 
-<p class="articletext">Classically influenced composer born in Reykjavík. I write music because it's something to do and I feel like music is something special. I also know what I like and other music is not always pleasing to me so I want to add to the, albeit already large, flora which does please me (and perhaps you too). </p>
+<p class="articletext">Classically influenced composer born in Reykjavík. I write music because I think music is something special.</p>
 
-<p class="articletext">Commissions open!</p>
-
-<p class="articletext">If you are extremely curious try <span id="dungeon-link">entering the dungeon</span>. </p>
+<p class="articletext">If you are more curious try <span id="dungeon-link">entering the dungeon</span>. </p>
 
 <!-- Social media thumbnails from an image by <a href="https://pixabay.com/users/kropekk_pl-114936/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=419944">kropekk_pl</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=419944">Pixabay</a> -->
 <ul class="social-icons">
