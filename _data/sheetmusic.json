@@ -122,6 +122,16 @@
 	"tonsmidartsdk" : {
 		"songs" : [
 			{
+				"title" : "Bænarí",
+				"url" : "../files/sheetmusic/tonsmidartsdk/binary.pdf",
+				"thumbnail" : "../img/thumbnails/tonsmidartsdk/binary.jpg"
+			},
+			{
+				"title" : "Á Vappi",
+				"url" : "../files/sheetmusic/tonsmidartsdk/avappi.pdf",
+				"thumbnail" : "../img/thumbnails/tonsmidartsdk/avappi.jpg"
+			},
+			{
 				"title" : "Vals",
 				"url" : "../files/sheetmusic/tonsmidartsdk/vals.pdf",
 				"thumbnail" : "../img/thumbnails/tonsmidartsdk/vals.jpg"

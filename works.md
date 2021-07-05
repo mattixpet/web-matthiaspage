@@ -79,6 +79,14 @@ cover: red-sky
 			<h3>Tónsmíðar TSDK (Winter 2020-21)</h3>
 			<ul class="miscalbum">
 				<li class="centersmallname">{% include single_misc_song.html 
+						name="Bænarí" 
+						recurl="/files/recordings/tonsmidartsdk/binary.mp3"
+					%}</li>
+				<li>{% include single_misc_song.html 
+						name="Á Vappi (óklárað)" 
+						recurl="/files/recordings/tonsmidartsdk/avappi.mp3"
+					%}</li>
+				<li class="centersmallname">{% include single_misc_song.html 
 						name="Vals" 
 						recurl="/files/recordings/tonsmidartsdk/vals.mp3"
 					%}</li>
