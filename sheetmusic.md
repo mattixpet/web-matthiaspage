@@ -23,6 +23,7 @@ cover: yellow-sky
 <h3>Other artists' work</h3>
 <h4>Piano</h4>
 <ul class="sheetmusiclist">
+	<li><a href="/files/sheetmusic/otherartists/Warlords_1990.pdf">Warlords (1990) - Stephen Hart</a></li>
 	<li><a href="/files/sheetmusic/otherartists/lagid hans afa.pdf">Lagið Hans Langafa - Jón Pálsson Dungal</a></li>
 	<li><a href="/files/sheetmusic/otherartists/Cera una volta il west.pdf">C'era Una Volta Il West - Ennio Morricone</a></li>
 	<li><a href="/files/sheetmusic/otherartists/I_Still_Have_a_Soul_Epic_Score.pdf">I Still Have a Soul - Epic Score</a></li>
