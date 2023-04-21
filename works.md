@@ -19,7 +19,7 @@ cover: red-sky
 			</div>
 			<a class="albumlink" href="https://youtu.be/NWGWSRxq-J8">Youtube</a>
 			<a class="albumlink" href="https://open.spotify.com/album/5sRwKvAlTZO2utFkhETLRN">Spotify</a>
-			<a class="albumlink" href="https://matthiaspetursson.bandcamp.com/album/hinar-n-ju-k-rustur-matth-asar-ri-ja">Bandcamp</a>
+			<a class="albumlink" href="https://matthiaspetursson.bandcamp.com/album/hinar-n-ju-k-rustur-matth-asar-ri-ja">Buy on Bandcamp</a>
 			<a class="albumlink" href="sheets/hinarnyjukaerustur">Sheet music</a>
 		</li>
 		<li>
@@ -27,7 +27,7 @@ cover: red-sky
 			{% include theapplestore_album.html %}
 			<a class="albumlink" href="https://www.youtube.com/watch?v=tvbTjBbmmI8">Youtube</a>
 			<a class="albumlink" href="https://open.spotify.com/album/5Z5XuMOJ8GwwIsRBDBx0DY">Spotify</a>
-			<a class="albumlink" href="https://matthiaspetursson.bandcamp.com/album/the-apple-store">Bandcamp</a>
+			<a class="albumlink" href="https://matthiaspetursson.bandcamp.com/album/the-apple-store">Buy on Bandcamp</a>
 			<a class="albumlink" href="sheets/theapplestore">Sheet music</a>
 		</li>
 	</ul>
