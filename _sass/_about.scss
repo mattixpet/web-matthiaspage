@@ -1,4 +1,6 @@
 main .#{$about} {
+	background-color: #b27ec9;
+
 	h1 { margin-top: 4%; } /* some reason the about h1 interpreted 2% as less than in works and collabs? */
 
 	.content {
