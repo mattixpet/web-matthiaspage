@@ -9,33 +9,268 @@
 
 <url>
   <loc>https://matthiaspetursson.com/</loc>
-  <lastmod>2019-11-03T22:17:34+00:00</lastmod>
+  <lastmod>2021-04-27T20:12:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://matthiaspetursson.com/about</loc>
-  <lastmod>2019-11-02T10:41:44+00:00</lastmod>
+  <lastmod>2021-07-05T20:28:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://matthiaspetursson.com/works</loc>
-  <lastmod>2019-11-02T10:41:44+00:00</lastmod>
+  <lastmod>2021-07-05T20:28:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://matthiaspetursson.com/collaborations</loc>
-  <lastmod>2019-11-02T10:41:44+00:00</lastmod>
+  <lastmod>2021-03-25T11:45:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://matthiaspetursson.com/dreamofsongs</loc>
-  <lastmod>2019-11-02T10:41:44+00:00</lastmod>
+  <lastmod>2021-03-25T11:45:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/sheetmusic</loc>
+  <lastmod>2022-01-22T12:40:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://matthiaspetursson.com/dungeon</loc>
-  <lastmod>2019-11-02T10:41:44+00:00</lastmod>
+  <lastmod>2023-04-21T10:14:50+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/sheets/hinarnyjukaerustur</loc>
+  <lastmod>2021-04-26T21:28:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/sheets/theapplestore</loc>
+  <lastmod>2021-01-24T21:34:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/sheets/litlajolaserian</loc>
+  <lastmod>2021-01-24T21:34:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/misc/hraunioxn.pdf</loc>
+  <lastmod>2020-10-08T17:02:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/sheets/tonsmidartsdk</loc>
+  <lastmod>2021-07-05T20:28:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/misc/litil-oskata.pdf</loc>
+  <lastmod>2017-12-23T23:52:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/misc/San%20Pazos.pdf</loc>
+  <lastmod>2019-05-09T20:22:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/otherartists/Warlords_1990.pdf</loc>
+  <lastmod>2022-01-22T12:29:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/otherartists/lagid%20hans%20afa.pdf</loc>
+  <lastmod>2021-02-07T18:18:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/otherartists/Cera%20una%20volta%20il%20west.pdf</loc>
+  <lastmod>2021-02-07T18:16:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/otherartists/I_Still_Have_a_Soul_Epic_Score.pdf</loc>
+  <lastmod>2012-06-10T14:20:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/otherartists/Time_Will_Remember_Us_Epic_Score.pdf</loc>
+  <lastmod>2012-10-12T16:33:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/otherartists/guitar/HongKong.pdf</loc>
+  <lastmod>2021-02-06T20:04:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/otherartists/guitar/Julia.pdf</loc>
+  <lastmod>2021-02-06T20:04:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/otherartists/guitar/SoundOfSilence.pdf</loc>
+  <lastmod>2021-02-06T20:34:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/otherartists/guitar/YouAreMySunshine.pdf</loc>
+  <lastmod>2021-02-08T18:55:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/hinarnyjukaerustur/cayce.pdf</loc>
+  <lastmod>2020-04-24T15:45:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/hinarnyjukaerustur/bryndis.pdf</loc>
+  <lastmod>2020-04-24T15:42:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/hinarnyjukaerustur/anna.pdf</loc>
+  <lastmod>2020-04-24T15:33:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/hinarnyjukaerustur/katie.pdf</loc>
+  <lastmod>2020-04-24T15:46:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/hinarnyjukaerustur/kathryn.pdf</loc>
+  <lastmod>2020-04-24T15:46:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/hinarnyjukaerustur/idunn.pdf</loc>
+  <lastmod>2020-04-24T15:45:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/hinarnyjukaerustur/thorunn1.pdf</loc>
+  <lastmod>2020-04-24T15:49:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/hinarnyjukaerustur/thorunn2.pdf</loc>
+  <lastmod>2020-04-24T15:49:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/theapplestore/theapplestore.pdf</loc>
+  <lastmod>2019-05-07T17:14:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/theapplestore/thehillsofmadness.pdf</loc>
+  <lastmod>2019-05-07T17:16:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/theapplestore/interlude008.pdf</loc>
+  <lastmod>2019-05-09T21:33:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/theapplestore/socani.pdf</loc>
+  <lastmod>2019-05-07T17:17:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/theapplestore/jesuswasacarpenter.pdf</loc>
+  <lastmod>2019-05-09T12:13:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/theapplestore/wherewasi.pdf</loc>
+  <lastmod>2019-05-07T17:18:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/theapplestore/isongher.pdf</loc>
+  <lastmod>2019-05-07T17:19:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/litlajolaserian/asta-jola.pdf</loc>
+  <lastmod>2020-12-23T17:18:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/litlajolaserian/elinbjort-jola.pdf</loc>
+  <lastmod>2020-12-24T14:07:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/litlajolaserian/hildur-jola.pdf</loc>
+  <lastmod>2020-12-23T17:17:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/litlajolaserian/mamma-jola.pdf</loc>
+  <lastmod>2020-12-23T17:17:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/litlajolaserian/osk-jola.pdf</loc>
+  <lastmod>2021-01-14T11:25:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/litlajolaserian/pabbi-jola.pdf</loc>
+  <lastmod>2020-12-23T17:16:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/tonsmidartsdk/binary.pdf</loc>
+  <lastmod>2021-04-30T17:46:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/tonsmidartsdk/avappi.pdf</loc>
+  <lastmod>2021-04-16T12:01:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/tonsmidartsdk/vals.pdf</loc>
+  <lastmod>2021-02-25T23:59:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/tonsmidartsdk/angeliccanon.pdf</loc>
+  <lastmod>2021-01-20T18:37:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/tonsmidartsdk/thejoyofchristmas.pdf</loc>
+  <lastmod>2020-12-18T11:13:09+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/tonsmidartsdk/hrifning-astridurnar.pdf</loc>
+  <lastmod>2020-11-24T11:22:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/tonsmidartsdk/johncaletribute.pdf</loc>
+  <lastmod>2020-10-08T22:55:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/tonsmidartsdk/layanegglayer.pdf</loc>
+  <lastmod>2021-01-14T12:26:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://matthiaspetursson.com/files/sheetmusic/tonsmidartsdk/brock2.pdf</loc>
+  <lastmod>2020-09-17T22:45:07+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
