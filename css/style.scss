@@ -18,6 +18,7 @@ $works: "red-sky";
 $collaborations: "crazy-sky";
 $dungeon: "black-sky";
 $sheetmusic: "yellow-sky";
+$promobonanza: "bonzai";
 
 @import "fonts";
 
@@ -80,6 +81,7 @@ main .normaldiv {
 @import "collaborations";
 @import "dungeon";
 @import "shoutbox";
+@import "promobonanza";
 
 @media only screen and (max-width: $widthToMoveNavDown) {
 	main .normaldiv {
