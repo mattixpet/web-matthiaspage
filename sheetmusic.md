@@ -23,7 +23,7 @@ cover: yellow-sky
 <h3>Other artists' work</h3>
 <h4>Piano</h4>
 <ul class="sheetmusiclist">
-	<li><a href="/files/sheetmusic/otherartists/Warlords_1990.pdf">Warlords (1990) - Stephen Hart</a></li>
+	<li><a href="/files/sheetmusic/otherartists/Warlords_1990.pdf" class="youtubesongsheet">Warlords (1990) - Stephen Hart</a><a href="https://www.youtube.com/watch?v=xTZhVsMJWRM" class="youtubesong" target="_blank"><img src="img/icons/youtube.png" /></a></li>
 	<li><a href="/files/sheetmusic/otherartists/lagid hans afa.pdf">Lagið Hans Langafa - Jón Pálsson Dungal</a></li>
 	<li><a href="/files/sheetmusic/otherartists/Cera una volta il west.pdf">C'era Una Volta Il West - Ennio Morricone</a></li>
 	<li><a href="/files/sheetmusic/otherartists/I_Still_Have_a_Soul_Epic_Score.pdf">I Still Have a Soul - Epic Score</a></li>
@@ -34,7 +34,7 @@ cover: yellow-sky
 	<li><a href="/files/sheetmusic/otherartists/guitar/HongKong.pdf">Hong Kong - Gorillaz</a></li>
 	<li><a href="/files/sheetmusic/otherartists/guitar/Julia.pdf">Julia - The Beatles</a></li>
 	<li><a href="/files/sheetmusic/otherartists/guitar/SoundOfSilence.pdf">The Sound of Silence - Simon & Garfunkel</a></li>
-	<li><a href="/files/sheetmusic/otherartists/guitar/YouAreMySunshine.pdf">You Are My Sunshine - Davis, Mitchell</a></li>
+	<li><a href="/files/sheetmusic/otherartists/guitar/YouAreMySunshine.pdf" class="youtubesongsheet">You Are My Sunshine - Davis, Mitchell</a><a href="https://www.youtube.com/watch?v=5c2GeLnSGek" class="youtubesong" target="_blank"><img src="img/icons/youtube.png" /></a></li>
 </ul>
 
 </div>

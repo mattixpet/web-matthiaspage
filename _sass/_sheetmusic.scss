@@ -10,16 +10,31 @@ main .#{$sheetmusic} {
 	.sheetmusiclist {
 		margin-bottom: 2em;
 		li {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
 			margin: 5px 0px;
-			a { 
+			a {
+				width: 100%;
 				display: block;
 				padding: 6px 1px; /* to make complete list item clickable */
 			}
+
+			.youtubesongsheet {
+				width: 90%;
+				margin-left: 10%;
+			}
+			.youtubesong { width: 10%; margin-left: auto; }
 		}
 
 		a:hover { 
 			background-color: $sheethovercolor; 
 			text-decoration: none;
+		}
+		a.youtubesong:hover {
+			background-color: inherit;
+			img { opacity: 0.8; }
 		}
 	}
 	.bottomsheetmusiclist { margin-bottom: 5em; }
@@ -27,6 +42,11 @@ main .#{$sheetmusic} {
 	.sheetmusiccontainer { 
 		width: 400px;
 		margin: 0 auto;
+	}
+
+	.youtubesong img {
+		width: 35px;
+		height: 35px;
 	}
 }
 
