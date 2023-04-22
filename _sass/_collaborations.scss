@@ -15,4 +15,8 @@ main .#{$collaborations} {
 
 		iframe { margin-bottom: 0.7em; }
 	}
+
+	.collabitem:last-of-type {
+		margin-bottom: 100px;
+	}
 }
