@@ -7,15 +7,82 @@
 	touch-action: manipulation;
 }
 
+.dreamofsongs-body {
+	margin: 0;
+	height: 100%;
+	overflow-y: hidden;
+}
+
 .gamefooter {
+	background-color: white;
 	margin-top: -2em;
 	.gamehome { font-weight: bold; }
+	position: relative;
+	align-items: center;
+}
+
+.highscore-wrapper {
+	width: 800px;
+	margin: 0.5em auto;
+	padding: 1em;
+	margin-bottom: 40px;  /* ~ height of footer */
+	li {
+		list-style-type: none;
+	}
+	h3 {
+		text-align: center;
+	}
+}
+
+.highscore {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.2em;
+	li {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 0.1em;
+		p {
+			width: 12.5%;
+			text-align: center;
+		}
+		p:first-of-type {
+			width: 35%;
+			text-align: left;
+		}
+		p:last-of-type {
+			width: 40%;
+		}
+	}
+	hr {
+		margin-bottom: 0.2em;
+	}
+	:first-child {
+		margin-bottom: 0.1em;
+	}
+}
+
+.highscore-title {
+	display: flex;
+	align-items: center;
+
+	>* {
+		padding: 0.2em;
+	}
+}
+.highscore-toggle {
+	width: 40px;
+	height: 40px;
+
+	:hover {
+		cursor: pointer;
+	}
 }
 
 @media screen and (max-width: 800px) {
 	.gamefooter { margin-top: 0.1em; }
 }
-
 /* remove footer so it doesn't display over game */
 @media screen and (max-height: 452px) {
 	.gamefooter { visibility: hidden; }

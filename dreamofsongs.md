@@ -1,6 +1,7 @@
 ---
 title: Dream of songs !
 layout: bare
+permalink: dreamofsongs.php
 ---
 
 <head>
@@ -21,11 +22,28 @@ layout: bare
 	<link rel="icon" href="/favicon.ico">
 </head>
 
-<body>
+<body class="dreamofsongs-body">
 	<main>
 		<canvas id="dreamOfSongs" width="800" height="450">
 	        Sorry, but your browser does not support the HTML5 canvas tag.
 	    </canvas>
+	    <div class="highscore-wrapper">
+	    	<div class="highscore-title">
+	    		<h4>Highscore</h4>
+	    		<div class="highscore-toggle">
+	    			<img class="highscore-down hidden" src="img/dreamofsongs/highscore/chevron-down-solid.svg">
+	    			<img class="highscore-up" src="img/dreamofsongs/highscore/chevron-up-solid.svg">
+	    		</div>
+	    	</div>
+	    	<?php include('php/highscore.php') ?>
+	    	<!-- <ul class="highscore">
+        		<li><p>Name</p><p>Score</p><p>Deaths</p><p>Date</p></li>
+        		<hr />
+        		<li><p>John</p><p>50</p><p>2</p><p>Mon, 01 May 2023 17:24:58 GMT</p></li>
+        		<li><p>Buchatansibal</p><p>160</p><p>56</p><p>Tue, 01 September 2023 16:24:57 GMT</p></li>
+        		<li><p>Æ</p><p>0</p><p>999</p><p>Thu, 01 November 2023 04:34:00 GMT</p></li>
+        	</ul> -->
+	    </div>
 	</main>
 	
 	<footer class="gamefooter">
@@ -47,4 +65,7 @@ layout: bare
 	<script src="js/ext/jszip/jszip.min.js" type="text/javascript"></script>
 	<script src="js/ext/filesaver/FileSaver.min.js" type="text/javascript"></script>
 	<script src="js/ext/dreamofsongs/dreamofsongs.min.js" type="text/javascript"></script>
+
+	<!-- for the website, not the game -->
+	<script type="text/javascript" src="js/highscore.js"></script>
 </body>
