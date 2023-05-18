@@ -50,6 +50,46 @@ $applestoreplantWidth: 58%;
 	}
 }
 
+.article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.1em;
+	.article-top {
+		margin: 1%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.article-bottom {
+		margin: 1%;
+		text-align: left;
+		ul {
+			margin: 0 auto;
+			max-width: 200px;
+			padding: 0.5em;
+			text-align: center;
+			list-style: circle;
+		}
+		a {
+			font-weight: bold;
+			color: red;
+			text-decoration: none;
+		}
+		a:hover {
+			font-size: 1.1em;
+			padding: 0.2em;
+			border-radius: 30%;
+			background-color: gray;
+		}
+	}
+	img {
+		max-width: 100%;
+		border-radius: 3%;
+	}
+}
+
 @media only screen and (max-width: 1010px) {
 	.vinylout {	flex-direction: column; }
 	#hnkphoto, #hnkcover { width: 80%; }
