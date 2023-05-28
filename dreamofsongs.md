@@ -64,7 +64,7 @@ permalink: dreamofsongs.php
 	<script src="js/ext/mainloop/mainloop.min.js" type="text/javascript"></script>
 	<script src="js/ext/jszip/jszip.min.js" type="text/javascript"></script>
 	<script src="js/ext/filesaver/FileSaver.min.js" type="text/javascript"></script>
-	<script src="js/ext/dreamofsongs/dreamofsongs.min.js" type="text/javascript"></script>
+	<script src="js/ext/dreamofsongs-1.2.1/dreamofsongs.min.js" type="text/javascript"></script>
 
 	<!-- for the website, not the game -->
 	<script type="text/javascript" src="js/highscore.js"></script>
