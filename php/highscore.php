@@ -3,8 +3,6 @@
   // was introduced in php 7.
   require_once "ext/random_compat/lib/random.php";
 
-  header('Content-Type: text/html; charset=utf-8');
-
   // https://stackoverflow.com/a/15875555/5272567
   function format_uuidv4($data) {
     assert(strlen($data) == 16);
