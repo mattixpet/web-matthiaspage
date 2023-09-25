@@ -83,10 +83,10 @@
         echo '<hr />';
         foreach ($results as $result) {
           echo '<li>';
-          echo  '<p>', $result['name'], '</p>',
-                '<p>', $result['score'], '</p>',
-                '<p>', $result['deaths'], '</p>',
-                '<p>', $result['date'], '</p>';
+          echo  '<p>', htmlspecialchars($result['name']), '</p>',
+                '<p>', htmlspecialchars($result['score']), '</p>',
+                '<p>', htmlspecialchars($result['deaths']), '</p>',
+                '<p>', htmlspecialchars($result['date']), '</p>';
           echo '</li>';
         }
         echo '</ul>';
