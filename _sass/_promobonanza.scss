@@ -17,6 +17,10 @@ main .#{$promobonanza} {
         .hnkm3-img { margin-left: 2.5em; }
 
         .promo-pics { margin-bottom: 2em; }
+
+        a:hover {
+            text-decoration: none;
+        }
     }
 
     @media screen and (max-width: 1200px) {
