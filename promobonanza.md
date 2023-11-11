@@ -17,6 +17,4 @@ cover: bonzai
             <img class="promo-img hnkm3-img" src="img/promo/hnkm3.jpg" />
         </a>
     </div>
-
-    <p class="cute-para">P.S. If you're cute give me a call, I'm single.</p>
 </div>
