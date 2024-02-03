@@ -29,6 +29,10 @@ cover: yellow-sky
 	<li><a href="/files/sheetmusic/otherartists/I_Still_Have_a_Soul_Epic_Score.pdf">I Still Have a Soul - Epic Score</a></li>
 	<li><a href="/files/sheetmusic/otherartists/Time_Will_Remember_Us_Epic_Score.pdf">Time Will Remember Us - Epic Score</a></li>
 </ul>
+<h4>Choir</h4>
+<ul class="sheetmusiclist">
+	<li><a href="/files/sheetmusic/otherartists/choir/AbideWithMe.pdf" class="youtubesongsheet">Abide With Me - The Newton Brothers</a><a href="https://youtu.be/reJp7TCCyqk" class="youtubesong" target="_blank"><img src="img/icons/youtube.png" /></a></li>
+</ul>
 <h4>Guitar</h4>
 <ul class="sheetmusiclist bottomsheetmusiclist">
 	<li><a href="/files/sheetmusic/otherartists/guitar/HongKong.pdf">Hong Kong - Gorillaz</a></li>
